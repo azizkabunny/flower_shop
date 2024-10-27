@@ -16,7 +16,7 @@ export const description =
 export default function SignInPage() {
   return (
     <Card className='w-full max-w-sm'>
-      <CardHeader>
+      <CardHeader className=''>
         <CardTitle className='text-2xl'>Login</CardTitle>
         <CardDescription>
           Enter your email below to login to your account.
